@@ -36,6 +36,6 @@ public class Cube extends Figure{
     
     @Override
     public String toString(){
-        return "A cube of width "+ this.edge+ " has volume "+ Utils.getRound2Decimals(this.getVolume());
+        return "A cube of width "+ this.edge+ " has volume "+ Utils.getRoundWithoutDecimals(this.getVolume());
     }
 }
